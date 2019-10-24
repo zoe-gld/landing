@@ -1,0 +1,42 @@
+.banner {
+  background: url("https://picsum.photos/id/146/5184/3456");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  color: #FFFFFF;
+  display: flex;
+}
+
+.banner .btn {
+  background: #e14b5a;
+  color: #FFFFFF;
+  padding: 20px;
+  position: absolute;
+  bottom: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.banner .btn:hover {
+  background: #631b3f;
+}
+
+.banner > div {
+  position: absolute;
+  left: 0;
+  padding: 70px 30px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #ddd1c1;
+}
+
+.banner h2 {
+  margin-top: 25px;
+  font-size: 24px;
+}

@@ -1,0 +1,28 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Merriweather:400,700,900&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*Components*/
+@import url("components/banner.css");
+@import url('components/card.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+

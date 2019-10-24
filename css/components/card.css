@@ -1,0 +1,32 @@
+.card-container {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 40px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px #e14b5a;
+  border-radius: 10px;
+}
+
+.card > img {
+  height: 200px;
+  margin-top: 20px;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  align-self: flex-start;
+  font-size: 24px;
+  color: #6259e6;
+}
+
+.card p {
+  margin-top: 0;
+}
